@@ -1,0 +1,14 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  max-width: 90%;
+}
+
+.nav-menu {
+  padding: 0 2em;
+}
+
+li.nav-item.active.nav-menu {
+  vertical-align: middle;
+}
