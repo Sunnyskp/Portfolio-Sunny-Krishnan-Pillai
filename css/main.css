@@ -1,14 +1,41 @@
 body {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2em;
-  max-width: 100%;
+  max-width: 100%vw;
+  font-size: 1em;
+  background-image: url("../img/problem-solved.png");
+  background-size: cover;
+  background-position-y: center;
 }
 
 .nav-menu {
   margin-top: auto;
   margin-bottom: auto;
   padding: 0 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: bolder;
+}
+
+.head-shot {
+  width: 22em;
+}
+
+.logo-style {
+  width: 3em;
+  margin: 0;
+}
+
+body,
+html {
+  height: 90%;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 55%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: rgb(231, 231, 231);
 }
